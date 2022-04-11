@@ -15,7 +15,7 @@ export type ITasks = {
   }
 
 function App() {
-    const [tasks, setTasks] = useState<ITasks>({tasks: [{id: 1, title: '123', checked: false}]});
+    const [tasks, setTasks] = useState<ITasks>({tasks: [{id: 1, title: 'Task1', checked: false}]});
     const addTask = (title: string) => { 
         setTasks({
           tasks: [
